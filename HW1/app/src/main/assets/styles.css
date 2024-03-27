@@ -1,0 +1,163 @@
+/* CSS */
+body {
+    display: flex;
+    justify-content: flex-start; /* Đặt .card ở bên trái */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    width: fit-content; /* Đặt chiều rộng là 50% để nằm ở nửa trái */
+    
+}
+
+.card h1 {
+    font-size: 24px;
+    color: rgb(0, 30, 255);
+    text-align: center;
+}
+
+.card p {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.row .column1 {
+    flex: 1;
+    padding-left: 10px;
+}
+
+.row .column2{
+    flex: 1;
+    padding-left: 10px;
+}
+
+.column1 h2{
+    padding-left: 130px;
+    padding-bottom:5px;
+}
+
+.column1 p{
+    padding:0px;
+}
+
+.column2 h2{
+    padding-left: 130px;
+    padding-bottom:5px;
+}
+
+.column3 img {
+    width: fit-content; /* Adjust the width as needed */
+}
+
+.column3 {
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    padding-bottom:80px;    
+}
+
+
+.right-block {
+    background-color: #ebebba; /* Background color for the right block */
+    padding: 10px; /* Add padding for spacing */
+    width: 50%; /* Adjust the width as needed */
+    height: 50%;
+    margin: 0px; /* Add margin for spacing between the card and the right block */
+}
+
+.right-block h1{
+    text-align: center;
+}
+
+.right-block .row{
+    padding-bottom: 10px;
+}
+
+
+.centered-block {
+    background-color: #f0f0f0; /* Màu nền */
+    width: 50%; /* Điều chỉnh kích thước theo ý muốn */
+    height: fit-content;
+    margin: 100px auto; /* Căn giữa theo chiều ngang và tạo khoảng cách 20px ở trên và dưới */
+    padding: 0px; /* Khoảng cách nội dung từ viền */
+
+position: absolute; /* Đặt vị trí tuyệt đối */
+    top: 80%; /* Đặt vị trí top ở giữa màn hình */
+    left: 50%; /* Đặt vị trí left ở giữa màn hình */
+    transform: translate(-50%, -50%); /* Dịch chuyển block để nằm giữa màn hình */
+}
+
+.centered-block h1{
+    text-align: center;
+}
+
+.centered-block h2{
+    padding-left: 30px;
+}
+
+.centered-block .column1{
+    padding-left: 30px;
+}
+
+.centered-block .column2{
+    padding-left: 200px;
+}
+
+.profile {
+    text-align: center;
+    align-items: center;
+}
+
+/* Your existing CSS styles */
+
+/* Style for the button */
+.github-button {
+    background-color: #0366d6; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove the button border */
+    padding: 10px 20px; /* Add padding for better button appearance */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+
+.github-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Your existing CSS styles */
+
+/* Style for the skill ratings */
+.skill-rating {
+    display: inline-block; /* Display the ratings inline */
+    margin-left: 5px; /* Add spacing between the skill name and rating */
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #FFD700; /* Set the default color to gold (you can change it to your desired color) */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+/* Style for the skill ratings using star icons */
+.skill-rating i {
+    color: #FFD700; /* Set the default color to gold (you can change it to your desired color) */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+/* Hover effect for the skill ratings */
+.skill-rating:hover {
+    color: #FF4500; /* Change the color on hover (you can choose a different color) */
+}
+
+/* Hover effect for the skill ratings using star icons */
+.skill-rating i:hover {
+    color: #FF4500; /* Change the color on hover (you can choose a different color) */
+}
+
